@@ -1,0 +1,17 @@
+cara mengatasi error database engine server saat menginstall sql server.
+1. Delete semua program yang di install bersama sql server.
+    -buka control panel.
+    -pilih uninstall program 
+    -delete aplikasi yang berhubungan dengan aplikasi sql server yang di install.
+2. Delete folder Microsoft Sql server di direktori C.
+   -Buka Local Disk C.
+   -Pilih program Files (tergantung windows 32 bit atau 64 bit)
+   -cari folder Microsoft Sql server lalu delete.
+3. Delete Microsoft Sql server dari regeistry.
+  -tekan windows+R dari keyboard. atau cari dari control panel ketik regedit.
+  -pilih local_machine.
+  - pilih software 
+  - pilih microsoft
+  - Cari Microsoft Sql server dan delete.
+4. Install kembali Microsoft Sql server. pada saat masuk pemilihan server config.
+    ubah penyimpanan server ke local service.
